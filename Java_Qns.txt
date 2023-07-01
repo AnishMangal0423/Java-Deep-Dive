@@ -10,20 +10,55 @@ Q1. Which things in java attracts u to use java ?
 
 Chapter-1 :- Components of Java Framework -
 ...........................................
+Java is Made up of Three Components - JVM --> JRE --> JDK..
 
 Q1. What is JVM ?
+Ans- 1. JVM is a Java Virtual Machine
+     2. It is not a Physical Machine ..it is Software that is System to System Dependent.
+     3. It converts ByteCode to MachineCode and Machine to Machine jvm matters/Differs like MacOS , Windows.. etc.Every Machine have their own jvm's on which we can run our compiled file.
+     4. Also Known as JIT Complier(Just in Time).
+     5. It Provides the SuperCool Feature of Portability to java.
+     6. To get compiled File of a file we write javac anish.java .
+
+     General Structure of Execution-
+
+     Java Program(Machine/Platform Independent)  -->  Comipler --> ByteCode File   -->   JVM(Machine Dependent)   -->  MachineCode  -->  CPU  ---> Output 
+    
+
 
 Q2. What is JRE ?
+Ans- 1. Java Runtime Environment in which we can , run our bytecode file to make machine code.
+     2. JRE is made up of Two Things - JVM + Loading of Classes and Libraries.
+     3. Compiled file we generted does not contain loaded classes or libraries(eg- utils, math etc.)bcz we are only compiling not running.
+     4. So to Load the we uses Runtine Env JRE so when jvm generates requests to load something jre solves ut and we can execute the things.(jre = jvm + loading c/l)
+
+     The flow of run of ByteCode is --
+     
+      Bytecode -->   Class Loader   --> ByteCode Verifier  --> Interpretor -->  Runtime   --> Hardware  -->  Cpu
+                   .....................................................................................
+                                       JRE = JVM + Loading
+
+
 
 Q3. What is JDK ?
+Ans- 1. Java Devlopment Kit which provides Many Functionalities to a System-
+         a. JVM
+         B. JRE
+         C. Java Compilers
+         D. Debuggers
+         E. Programming Language(Java)
+         F. Security
 
-Q4. How to cahnge the path in files via Window Terminals ?
+    2. So only if we Downloads JDK it will Provide all the Above Functionalities ,, oracle provides jdk now after 2010.
 
-Q5. Explain the DIR Command in Detail ?
+Note --> JVM , JRE , JDK all are platform Denpendent.
 
-Q6. Can u Please tell about "filename.class" file ?
 
-Q7. what is the sequence of Running the commands in java, Explain in Detail ?
+Q4. Can u Please tell , Why Specifically Java Main method is Public ?
+Ans- The Core Reason Behind it is that we makes any function public because we can call it from anywhere .. 
+     So Main function is considerd as the entry point in java system even u have made 1000's of files so ..
+     Jvm first of all calls main method from outside the class to run the program so that's why it is public.
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -115,8 +150,3 @@ Q7. Explain the Chaining of Constructor using this and Super Keyword?
 
 
 Note --> We will Start our New Lecture on Garbage Collector after Filling this Notepad sheet Completly and Done Programes in Intellige....
-
-
-
-
-
