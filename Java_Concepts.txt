@@ -1,0 +1,122 @@
+                            ----------------------   Java Deep Concepts ------------------------
+
+
+General Questions --
+....................
+
+Q1. Which things in java attracts u to use java ?
+
+
+
+Chapter-1 :- Components of Java Framework -
+...........................................
+
+Q1. What is JVM ?
+
+Q2. What is JRE ?
+
+Q3. What is JDK ?
+
+Q4. How to cahnge the path in files via Window Terminals ?
+
+Q5. Explain the DIR Command in Detail ?
+
+Q6. Can u Please tell about "filename.class" file ?
+
+Q7. what is the sequence of Running the commands in java, Explain in Detail ?
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Interview Question -
+...................
+
+Q. Why java has only one Public Class ? 
+ 
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Chapter-2 :- Methods in Java -
+...............................
+
+Q1. Why we Need Methods in Java ?
+
+Q2. What is Methods in Java ?
+
+Q3. Anish Can u please explain the Difference between Function and Methods in Java ?
+
+Q4. What are the Disadvantages of using functions/Methods in Java ?
+
+Q5. Show How the function Syntax is Written and meaning of every word in java ?
+    - Access Specifier
+    - Return Type
+    - Function Name  --> class - Noun , Interface - Adjective(Runnable , serializable) , Methods - verb , Constants - Capital Letters..
+    - Parameters/ Arguments
+    - Exception Handeling 
+    - Function Body.
+
+Q6. What is differnce between paramters and Arguments ?
+     p  , a
+
+Q7. What are the Types of Function/Methods in Java ?
+    - System Defined Methods.
+    - User Defined Methods.
+    - Overloaded Functions.
+    - Overriding Functions.
+    - Static Methods.
+         1. Static Methods are Associated to the Class Rather then Object itself. like the Globals
+         2. Static Methods can't go for Non static Variable Instances bcz they are Associated with every objects.
+         3. Static Methods can't be overridden ,, basically they are hiding not overriding ,, bcz associated with the class.
+       
+
+     When we should use Static Methods -
+           Ans- Whenever we are working only for simple logics or simple printings then do it .. we should never use it when we are using any type of variable in class.
+          
+    - Final Methods.
+         .. Hinders the overriding of Methods .
+
+    - Abstract Methods.
+           1. For defining Abstract methods first make class as abstract.
+           2. it should be implimented in child class.
+
+    - Variable Arguments Method.
+          1. when we uses variable number of Parameters.
+          2. It stores them as List and we can use them. 
+
+  Note --> We Can now Start our new Lecture of Java Constructor .
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q1. Why we are making and using the constructor?
+Ans- Because constructors are initilizars of instance values so without making them we will not be able to make objects and then no use of class will be there.
+
+Q2. How will you differntiate methods and constructor ?
+Ans-  These are the Certain Factors -
+
+      1. Constructors do not have Return Type.
+      2. Constructor can't be static , final , abstract and synchronized.
+   Note --> Constructor and Methods may have same name as class name ...
+
+
+Q3. Why Constructor can't be static ?
+
+Q4. Why constructor can't be Abstract?
+
+Q5. Why constructor can't be Final ?
+
+Q6. Write the Types of Constructor ?
+    - Default
+    - No Arg
+    - Parameterized Constructor.
+    - Private Constructor
+    - Public Constructor 
+    - Protected Constructor
+    
+
+Q7. Explain the Chaining of Constructor using this and Super Keyword? 
+
+
+Note --> We will Start our New Lecture on Garbage Collector after Filling this Notepad sheet Completly and Done Programes in Intellige....
+
+
+
+
+
